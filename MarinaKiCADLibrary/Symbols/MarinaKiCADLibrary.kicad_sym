@@ -1139,7 +1139,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CONN"
-			(at 0 35.814 0)
+			(at 0.254 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Footprint" "MarinaKiCADLibrary:FPC_Conn"
-			(at 0.254 -36.83 0)
+			(at 0 -44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,6 +1636,42 @@
 					)
 				)
 				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 36.83 270)
+				(length 2.54)
+				(name "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36.83 90)
+				(length 2.54)
+				(name "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
 					(effects
 						(font
 							(size 1.27 1.27)
