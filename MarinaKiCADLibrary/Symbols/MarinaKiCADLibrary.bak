@@ -969,7 +969,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 9.398 0)
+			(at 0 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,7 +977,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 1.016 -8.89 0)
+			(at 0.508 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,14 +1013,50 @@
 		)
 		(symbol "Conn_01x06_1_1"
 			(rectangle
-				(start -2.54 7.62)
-				(end 2.54 -7.62)
+				(start -2.54 10.16)
+				(end 2.54 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin input line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input line
