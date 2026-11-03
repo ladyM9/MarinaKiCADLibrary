@@ -58,7 +58,7 @@
 		(start -10 -10)
 		(end 10 10)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(fill no)
@@ -1098,4 +1098,15 @@
 		(uuid "f2fc52ed-2703-405e-8fec-4c6944850484")
 	)
 	(embedded_fonts no)
+	(model "/Users/marina/Documents/GitHub/MarinaKiCADLibrary/MarinaKiCADLibrary/3D_Models/STM32H753ZIT6.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
